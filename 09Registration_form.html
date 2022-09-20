@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+</head>
+<body>
+      <center>
+	<table border="3">
+		<form method="post">
+		<tr>
+			<th colspan="2" style="color: pink;">Registration Form</th>
+		</tr>
+
+		<tr>
+			<td align="right">Name:</td>
+			<!-- <td><input type="text" name="nm" required="" pattern="[a-zA-Z]+" title="only characters"></td> -->
+
+			<td><input type="text" name="nm" required="" pattern="[a-zA-Z]{3,6}" title="only 3 and 6 characters"></td>
+		</tr>
+
+		<tr>
+			<td align="right">Email:</td>
+			<td><input type="email" name="" required></td>
+		</tr>
+		<tr>
+			<td align="right">password</td>
+			<td><input type="password" name="pwd" required></td>
+		</tr>
+		<tr>
+			<td align="right">Mobile</td>
+			<td><input type="text" name="" required="" pattern="[0-9]{10}" title="10 digits only"></td>
+		</tr>
+
+		<tr>
+			<td align="right">Date</td>
+			<td><input type="date" name="" required></td>
+		</tr>
+		<tr>
+			<td align="right">Date-Time</td>
+			<td><input type="datetime-local" name="" required></td>
+		</tr>
+		<tr>
+			<td align="right">color</td>
+			<td><input type="color" name="" required></td>
+		</tr>
+		<tr>
+			<td align="right">your country</td>
+			<td><select>
+				<option>India</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td align="right">upload file</td>
+			<td><input type="file" name="" required></td>
+		</tr>
+		<tr>
+			<td align="right">Gender</td>
+			<td> <input type="radio" name="gender">
+				Male
+				<input type="radio" name="gender">
+				Female
+			</td>
+		</tr>
+		<tr>
+			<td align="right">Language</td>
+			<td><input type="checkbox" name="">HTML
+				<input type="checkbox" name="">CSS
+				<input type="checkbox" name="">JAVASCRIPT
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name=""></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="reset" name=""></td>
+		</tr>
+	</form>
+	</table>
+</center>
+</body>
+</html>
